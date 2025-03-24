@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta 1</title>
+    <style>
+         p {
+                font-size: 16px;
+            }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #0d0536, #000966, hsl(0, 0%, 0%) );
+            color: white;
+        }
+        h1 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        h2 {
+            text-align: center;
+            color: #ecf0f1;
+            margin-bottom: 30px;
+        }
+
+        .buttons {
+            display: flex; /* Usa Flexbox para alinhar os botões horizontalmente */
+            gap: 20px; /* Espaçamento entre os botões */
+        }
+
+        .Dificuldade {
+            background-color: #27ae60;
+            color: rgb(0, 0, 0);
+            font-size: x-large;
+            padding: 10px 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+        }
+
+        .Dificuldade:hover {
+            background-color: #2ecc71;
+            transform: scale(1.05) ;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        #Fácil{
+            background-color: #07d6079d;
+            color: rgb(0, 0, 0);
+            font-size: x-large;
+            padding: 10px 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            text-decoration: none;
+            display: inline-block;
+            transition: border-color 0.9s, background-color 0.3s, transform 0.9s, box-shadow 0.3s;
+        }
+        #Fácil:hover{
+            background-color: #05970c;
+            transform: scale(1.05) ;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+            color: white;
+            border-color: white;
+        }
+        #Médio{
+            background-color: #fffb00c9;
+            color: rgb(0, 0, 0);
+            font-size: x-large;
+            padding: 10px 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            text-decoration: none;
+            display: inline-block;
+            transition: border-color 0.9s, background-color 0.3s, transform 0.9s, box-shadow 0.3s;
+        }
+        #Médio:hover{
+            background-color: #868408;
+            transform: scale(1.05) ;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);   
+            color: white;
+            border-color: white;
+        }
+        #Difícil{
+            background-color: #ff0606b2;
+            color: rgb(0, 0, 0);
+            font-size: x-large;
+            padding: 10px 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            text-decoration: none;
+            display: inline-block;
+            transition: border-color 0.9s, background-color 0.3s, transform 0.9s, box-shadow 0.3s;
+        }
+        #Difícil:hover{
+            background-color: #8d0707;
+            transform: scale(1.05) ;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+            color: white;
+            border-color: white;
+        }
+
+        #Fundo{
+            text-align: center;
+            background-color: #2c3e50;
+            padding: 30px 70px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            max-width: 400px;
+            border: solid 4px rgb(0, 0, 0);
+            
+        }
+    </style>
+</head>
+<body>
+<div id="Fundo">
+    <h1>Selecione a Dificuldade!</h1>
+
+    <div class="buttons">
+        <a  id="Fácil" href="Início.html">Fácil!</a>
+        <a  id="Médio" href="Início.html">Médio!</a>
+        <a  id="Difícil" href="Início.html">Dificil</a>
+    </div>
+</div>
+</body>
+</html>
