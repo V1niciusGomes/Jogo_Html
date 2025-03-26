@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Início</title>
+    <title>Pergunta 6</title>
     <style>
          p {
                 font-size: 16px;
@@ -17,8 +17,12 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background: linear-gradient(135deg, #0d0536, #000966, hsl(0, 0%, 0%) );
+            background: linear-gradient(45deg, #1d8b61, #4b86b4, #082a38);
             color: white;
+        }
+        a{
+            margin-left: auto;
+            margin-right: auto;
         }
         h1 {
             text-align: center;
@@ -36,7 +40,7 @@
             gap: 20px; /* Espaçamento entre os botões */
         }
 
-        .Dificuldade {
+        .v {
             background-color: #27ae60;
             color: rgb(0, 0, 0);
             font-size: x-large;
@@ -48,14 +52,14 @@
             transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
         }
 
-        .Dificuldade:hover {
+        .v:hover {
             background-color: #2ecc71;
             transform: scale(1.05) ;
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
         }
 
-        #Fácil{
-            background-color: #07d6079d;
+        .f {
+            background-color: #c0392b;
             color: rgb(0, 0, 0);
             font-size: x-large;
             padding: 10px 20px;
@@ -63,52 +67,15 @@
             border-radius: 10px;
             text-decoration: none;
             display: inline-block;
-            transition: border-color 0.9s, background-color 0.3s, transform 0.9s, box-shadow 0.3s;
-        }
-        #Fácil:hover{
-            background-color: #05970c;
-            transform: scale(1.05) ;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
-            color: white;
-            border-color: white;
-        }
-        #Médio{
-            background-color: #fffb00c9;
-            color: rgb(0, 0, 0);
-            font-size: x-large;
-            padding: 10px 20px;
-            border: 2px solid black;
-            border-radius: 10px;
-            text-decoration: none;
-            display: inline-block;
-            transition: border-color 0.9s, background-color 0.3s, transform 0.9s, box-shadow 0.3s;
-        }
-        #Médio:hover{
-            background-color: #868408;
-            transform: scale(1.05) ;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);   
-            color: white;
-            border-color: white;
-        }
-        #Difícil{
-            background-color: #ff0606b2;
-            color: rgb(0, 0, 0);
-            font-size: x-large;
-            padding: 10px 20px;
-            border: 2px solid black;
-            border-radius: 10px;
-            text-decoration: none;
-            display: inline-block;
-            transition: border-color 0.9s, background-color 0.3s, transform 0.9s, box-shadow 0.3s;
-        }
-        #Difícil:hover{
-            background-color: #8d0707;
-            transform: scale(1.05) ;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
-            color: white;
-            border-color: white;
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+
         }
 
+        .f:hover {
+            background-color: #e74c3c;
+            transform: scale(1.05) ;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        }
         #Fundo{
             text-align: center;
             background-color: #2c3e50;
@@ -123,14 +90,12 @@
 </head>
 <body>
 <div id="Fundo">
-    <h1>Selecione a Dificuldade!</h1>
-
+    <h1>Pergunta 6</h1>
+    <p>A Amazônia é a maior floresta tropical do mundo em área total.</p>
     <div class="buttons">
-        <a  id="Fácil" href="Fácil/Início.html">Fácil!</a>
-        <a  id="Médio" href="Médio/início.html">Médio!</a>
-        <a  id="Difícil" href="Difícil/início.html">Dificil</a>
+        <a class="v" href="pergunta 7.html">Verdadeiro</a>
+        <a class="f" href="Derrota.html">   Falso   </a>
     </div>
 </div>
-
 </body>
 </html>
